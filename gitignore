@@ -1,0 +1,57 @@
+
+# ----------------------
+# Python cache & temp
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.tmp
+*.log
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+.venv/
+.env/
+env/
+venv/
+
+# ----------------------
+# Jupyter Notebook Checkpoints
+# ----------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----------------------
+# VS Code Workspace
+# ----------------------
+.vscode/
+*.code-workspace
+
+# ----------------------
+# System Files (Windows/Mac)
+# ----------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ----------------------
+# Data Files (Optional — raw data can be excluded to commit only cleaned dataset)
+# Uncomment the below line if you don't want to push initial dataset
+# data/discord.csv
+# data/*.csv
+
+# ----------------------
+# Outputs & Generated Files
+# ----------------------
+outputs/figures/
+outputs/*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Keep cleaned file + README visible in repo
+!README.md
+!data/discord_cleaned.csv
